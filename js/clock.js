@@ -6,4 +6,4 @@ function sayHello() {
     clock.textContent = new Date().toLocaleTimeString();
 }
 
-setInterval(sayHello, 1000)
+setInterval(sayHello, 1000);
