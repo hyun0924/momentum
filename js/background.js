@@ -6,3 +6,4 @@ const chosenBG = parseInt(Math.random() * BG_NUM);
 const bgImage = document.createElement("img");
 bgImage.src = `./img/${chosenBG}.jpg`;
 bgImage.classList.add("background");
+document.body.appendChild(bgImage);
